@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'https://react-jobs-app.netlify.app/';
+axios.defaults.baseURL = 'https://jobtracker233.herokuapp.com/';
 
 axios.interceptors.request.use(function (req) {
   const user = localStorage.getItem('user');

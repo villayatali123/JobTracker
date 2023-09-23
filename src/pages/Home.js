@@ -21,9 +21,7 @@ function Home() {
             <h1>job tracking app</h1>
             <p>
              This is a simple website to keep track of your job 
-             applications . Don't be shy, GO ahead Register by 
-             providing the required credentials and then login to keep 
-             track of your job applications 
+             applications   . Go ahead register with an email and then login to keep track of your job applications 
             </p>
 
             <Link to='/register' className='btn hero-btn'>
